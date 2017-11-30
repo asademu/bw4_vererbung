@@ -9,6 +9,8 @@ public class MC_Zaehler {
         seitenZaehler.erhoeheZaehler(Tastatur.liesInt());
         System.out.println("Seitenanzahl: " + seitenZaehler.getZaehlerstand());
 
+        System.out.print("Tiername: ");
+        affenZaehler.setTiername(Tastatur.liesString());
         System.out.print(affenZaehler.getTiername() + " toeten: ");
         affenZaehler.verringereZaehler(Tastatur.liesInt());
         affenZaehler.datenausgabe();
