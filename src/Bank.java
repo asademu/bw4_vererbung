@@ -1,10 +1,10 @@
-package uebung_b;
 
+//superclass 'Bank'
 public class Bank {
     private String blz;
 
     public Bank(){
-        blz = "Leer";
+        blz = "";
     }
 
     public Bank(String b){
@@ -20,6 +20,6 @@ public class Bank {
     }
 
     public void datenausgabe(){
-        System.out.print(getBlz());
+        System.out.println("BLZ: " + getBlz());
     }
 }

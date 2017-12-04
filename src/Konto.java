@@ -1,9 +1,9 @@
-package uebung_b;
-
+//subclass 'Konto' inherits from 'Bank'
 public class Konto extends Bank {
     private float kapital;
 
     public Konto(){
+        //use the superclass' constructor by adding 'super()'
         super();
         kapital = 0;
     }
@@ -19,5 +19,13 @@ public class Konto extends Bank {
         }
     }
 
+    public float getKapital() {
+        return kapital;
+    }
 
+    @Override
+    public void datenausgabe() {
+        super.datenausgabe();
+        System.out.printf("Kapital: %,.2f €\n", getKapital());
+    }
 }
