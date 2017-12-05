@@ -1,4 +1,3 @@
-
 //superclass 'Bank'
 public class Bank {
     private String blz;
