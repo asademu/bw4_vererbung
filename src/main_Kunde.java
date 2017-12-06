@@ -12,7 +12,10 @@ public class main_Kunde {
 
         do {
             do {
-                System.out.println("Kunde 1, 2, 3 oder 4? ");
+                System.out.println("1 - Privatkunde 1");
+                System.out.println("2 - Privatkunde 2");
+                System.out.println("3 - Geschaeftskunde 1");
+                System.out.println("4 - Geschaeftskunde 2");
                 System.out.println("0 - Beenden");
                 wahl = Tastatur.liesInt();
 
